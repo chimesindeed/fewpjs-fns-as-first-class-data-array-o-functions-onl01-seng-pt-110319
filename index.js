@@ -37,7 +37,7 @@ var routine = [
   unleashDog
   ]
   
-  function exerciseDog(dogName, dobBreed){
+  function exerciseDog(dogName, dogBreed){
     for(let i = 0; i < routine.length - 1; i++){
       self(dogName, dogBreed)[i]
     }
