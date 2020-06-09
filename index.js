@@ -38,7 +38,7 @@ var routine = [
   ]
   
   function exerciseDog(dogName, dogBreed){
-    return routine.map(b => b(dog, breed))
+    return routine.map(b => b(dogName, dogBreed))
     
   }
     
