@@ -38,7 +38,7 @@ var routine = [
   ]
   
   function exerciseDog(dogName, dobBreed){
-    for(i = 0; i < routine.length - 1; i++){
+    for(let i = 0; i < routine.length - 1; i++){
       self(dogName, dogBreed)[i]
     }
     
